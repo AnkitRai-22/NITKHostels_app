@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/institute_imp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yet_to_be_cleared"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toEndOf="@+id/institute_fees"
+        app:layout_constraintTop_toBottomOf="@+id/hostel_imp"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/payment_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_status"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:fontFamily="serif-monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/hostelfees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hostel_fees_status"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_status"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <TextView
+        android:id="@+id/hostel_imp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yet_to_be_cleared"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toEndOf="@+id/hostelfees"
+        app:layout_constraintTop_toBottomOf="@+id/payment_status"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <TextView
+        android:id="@+id/institute_fees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/institute_fees_status"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hostelfees"
+        app:layout_constraintVertical_bias="0.182" />
+</androidx.constraintlayout.widget.ConstraintLayout>
